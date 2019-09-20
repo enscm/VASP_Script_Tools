@@ -36,10 +36,6 @@ print("Fermi lever is",efermi,"eV")
 ### write DOS0 ####
 with open("DOS0","w+") as writer0:
     for i in range(6,307):
-        #line = lines[index + 1].strip().split()
-        #ncols = int(len(line))
-        #pos = np.zeros((natoms, 3))
-        #index += 1
         e = float(lines[i].strip().split()[0])
         e_ef = e - efermi
         writer0.writelines('%15.8f'%(e_ef))
