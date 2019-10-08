@@ -34,7 +34,7 @@ natoms = int(lines[index].strip().split()[0])
 index = 5
 nedos = int(lines[index].strip().split()[2])
 efermi = float(lines[index].strip().split()[3])
-print("WARNING: only tested for 'vasp.4.*', LORBIT=11, Spin polarized calc, use with caution! " )
+print("WARNING: only tested for 'vasp.5.*', LORBIT=11, Spin polarized calc, use with caution! " )
 print("There are",natoms,"atoms in system")
 print("Fermi lever is",efermi,"eV")
 
