@@ -1,8 +1,5 @@
 #!/usr/bin/env python
 
-import numpy as np
-import pandas as pd
-
 ##--------------------------------------------------------------------
 ##   code writen on 20 sept 2019, by Qing W
 ##            qing.wang@outlook.fr
