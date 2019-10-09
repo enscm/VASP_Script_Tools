@@ -1,5 +1,5 @@
 # VASP_Tools
-This is some simple python scripts for DOS data treatment
+Here are some simple python scripts for VASP DOS/MD data treatment
 
 split_dos_Q.py can split the DOSCAR file into sub-dosfiles, each of them countains (from DOS1 to DOSn) the individual atom information
 (energy s-DOS(up) px-DOS(up) py-DOS(up) ...total-DOS); (total DOS for all Atoms is conserved in DOS0)
