@@ -41,7 +41,7 @@ with open("DOS0","w+") as writer0:
         e = float(lines[i].strip().split()[0])
         e_ef = e - efermi
         writer0.writelines('%15.8f'%(e_ef))
-        ### it means write down the "e" content by keeping 8 valid numbers with total 15 empty space###
+        ### it means write down the "e" content by keeping 8 decimal fractions with total 15 occupant space###
 
 ### here loop in loop, for the second loop, it will run all possibility(statements) firstly,
         # then will return to first loop, then try all possibily in second loop agin###
